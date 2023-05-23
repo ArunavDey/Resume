@@ -1,0 +1,198 @@
+%-------------------------
+% Author : Arunav Dey
+% Based off of: https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+\usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------
+% Resume
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Arunav Dey} \\ \vspace{1pt}
+    \small +91 897 162 2911 $|$ \href{mailto:arunav-dey@outlook.com}{\underline{arunav-dey@outlook.com}} $|$ 
+    \href{https://github.com/ArunavDey}{\underline{github.com/ArunavDey}} $|$ \href{https://linkedin.com/in/arunav-dey}{\underline{linkedin.com/in/arunav-dey}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {PES University}{Bengaluru, KA, India}
+      {Bachelor of Technology; CGPA: \@8.7/10.0}{Jun. 2023, expected}
+    \resumeSubheading
+      {Christ Junior College}{Bengaluru, KA, India}
+      {Pre-University in Science; Percentage: \@88.7\%}{May 2019}
+    \resumeSubheading
+      {Baldwin Boys' High School}{Bengaluru, KA, India}
+      {ICSE in Science; Percentage: \@92.3\%}{May 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Web Development Intern}{Jan. 2023 -- Present}
+      {Hiver}{Bengaluru, KA, India}
+      \resumeItemListStart
+        \resumeItem{Handled upgradation of a package from Node 16 to Node 18}
+        \resumeItem{Developed the frontend for multiple features using React and Redux}
+        \resumeItem{Worked on migrating BackboneJS code to ReactJS}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Teaching Assistant}{Jan. 2023 -- Jun. 2023}
+      {PES University}{Bengaluru, KA, India}
+      \resumeItemListStart
+        \resumeItem{Created coding problems related to Design and Analysis of Algorithms}
+        \resumeItem{Created solutions for all such questions and included test cases}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Artificial Intelligence and Machine Learning Intern}{Jun. 2022 -- Aug. 2022}
+      {Pronisi Inc.}{Bengaluru, KA, India}
+      \resumeItemListStart
+        \resumeItem{Explored human-pose models such as BlazePose}
+        \resumeItem{Worked using Python libraries like OpenCV, MediaPipe and Torch}
+        \resumeItem{Performed data collection and preparation using Python and FFmpeg}
+        \resumeItem{Tested code using Pytest}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Discrimination of ADHD using LSTMCaps} $|$ \emph{Python, TensorFlow, Keras, MATLAB}}{Jan 2022 -- Present}
+          \resumeItemListStart
+            \resumeItem{Created a Capsule-LSTM network for the deep learning model using TensorFlow and Keras}
+            \resumeItem{Performed data cleaning and data preprocessing on the ADHD-200 dataset using MATLAB}
+            \resumeItem{Used feature extraction techniques such as ReHo and fALFF using Python}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Photo to Painting using CycleGAN} $|$ \emph{Python, TensorFlow, Keras}}{Jan. 2022 -- May 2022}
+          \resumeItemListStart
+            \resumeItem{Implemented a CycleGAN model}
+            \resumeItem{Trained the CycleGAN model to convert a photo to a painting using style transfer}
+            \resumeItem{Collected and prepared data as paintings from multiple artists}
+            \resumeItem{Explored Google Colab while training and using the model}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Railway Reservation System} $|$ \emph{Java, Spring, ReactJS}}{Jan. 2022 -- May 2022}
+          \resumeItemListStart
+            \resumeItem{Developed the backend using Spring and the frontend using ReactJS}
+            \resumeItem{Used and explored SQLite for the database}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Food Delivery Web Application} $|$ \emph{NodeJS, ReactJS, ExpressJS, Firebase}}{Oct. 2020 -- Dec. 2020}
+          \resumeItemListStart
+            \resumeItem{Developed the backend and middleware using NodeJS and ExpressJS}
+            \resumeItem{Develoepd the frontend using React}
+            \resumeItem{Used and explored Firebase for the database}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, JavaScript, TypeScript, HTML/CSS, C/C++, Java, PostgresQL} \\
+     \textbf{Frameworks}{: MERN, NodeJS, FastAPI } \\
+     \textbf{Developer Tools}{: Git, Docker, Kubernetes, Google Cloud Platform, VS Code, Linux, Vim} \\
+     \textbf{Libraries}{: ReactJS, Redux, pandas, NumPy, Matplotlib, TensorFlow, Keras}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
