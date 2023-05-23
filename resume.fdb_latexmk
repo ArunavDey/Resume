@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1684809543 "/home/arunav/Documents/Resume/resume.tex" "resume.pdf" "resume" 1684809544 0
-  "/home/arunav/Documents/Resume/resume.tex" 1684809543 6981 a7dba12281d374d221111a69d31cefeb ""
+["pdflatex"] 1684810361 "/home/arunav/Documents/Resume/resume.tex" "resume.pdf" "resume" 1684810361 0
+  "/home/arunav/Documents/Resume/resume.tex" 1684810360 7083 8abd1557db8136cb97311d41b749933a ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1680514707 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1680514707 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1680514707 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -95,9 +95,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1680514707 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1680532777 4491781 539e3b5e308794ddb50e5f94f0e971f4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1680532726 8204068 7c95287034550141297c3acfb2f1eb53 ""
-  "resume.aux" 1684809544 1065 756d84d9150b02d5f08aee1660983b1c "pdflatex"
-  "resume.out" 1684809544 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "resume.tex" 1684809543 6981 a7dba12281d374d221111a69d31cefeb ""
+  "resume.aux" 1684810361 1065 756d84d9150b02d5f08aee1660983b1c "pdflatex"
+  "resume.out" 1684810361 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
+  "resume.tex" 1684810360 7083 8abd1557db8136cb97311d41b749933a ""
   (generated)
   "resume.aux"
   "resume.log"
